@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/processed/
+vector_store/
+logs/
+.scrapy/
+get-pip.py
+test_*.py

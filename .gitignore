@@ -1,0 +1,30 @@
+﻿# Environment / secrets
+.env
+**/.env
+*.env
+
+# Backend - Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Backend - large/generated data (don't push scraped HTML, embeddings, cache)
+backend/data/raw/
+backend/data/processed/
+backend/.scrapy/
+backend/logs/
+backend/vector_store/*.npy
+backend/vector_store/*.faiss
+backend/vector_store/*.index
+
+# Frontend - Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
